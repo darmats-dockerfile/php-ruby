@@ -1,0 +1,6 @@
+version: '3'
+services:
+  php56-ruby24-alpine:
+    build:
+      context: php56-ruby24/alpine
+    image: darmats/php-ruby:php5.6-ruby2.4-alpine
